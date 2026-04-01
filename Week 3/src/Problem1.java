@@ -38,7 +38,7 @@ public class Problem1 {
         transactions.add(new Transaction(3, 10.5, LocalTime.now()));
         if (transactions.size() < 100) {
 
-            System.out.println("before  sorting ");
+            System.out.println("before  sortings");
             for (Transaction t : transactions) {
                 System.out.println(t.toString());
             }
